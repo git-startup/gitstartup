@@ -1,0 +1,27 @@
+.mvp_list{
+	margin-top: 50px;
+}
+
+#mvp-name, #mvp-price{
+	right: 100px;
+}
+.mvp-single{
+	margin-top: 50px;
+	padding: 25px;
+}
+#mvp_btn{
+	margin-top: 20px;
+}
+#mvp_btn:hover{
+	color: #000;
+}
+#mvp-price{
+	top: 10%;
+}
+
+@media screen and (max-width: 766px) {
+	.mvp_owner, .add_mvp_helper{
+		margin-top: 25px;
+		margin-bottom: 35px;
+	}
+}

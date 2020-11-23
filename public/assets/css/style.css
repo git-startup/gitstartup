@@ -1,0 +1,220 @@
+*{margin: 0;padding: 0}
+@font-face {font-family: JF-Flat-regular;src: url("../fonts/Flat_Font_Jozoor/JF-Flat-regular.ttf"); }
+
+body{font-family: JF-Flat-regular; overflow-x: hidden;}
+p,h1,h2,h3,h4,h5,h6,div,input,option,textarea,button,select{font-family: JF-Flat-regular!important;}
+/******************************************************************/
+
+/*************************************************************************/
+/* style for navigation bar */
+.top-nav{width: 100%;padding: 10px;background-color: #fff}
+.top-nav ul{}
+.top-nav li{margin: 0px 10px!important;}
+.navbar-toggler{border: 0px!important;}
+.navbar-toggler-icon{border-radius: 50%;color: #fff!important}
+.brand{position: absolute;top: 5px;left: 25px;}
+
+.nav-links li a{color: #000!important;}
+.nav-links li a:hover{color: #f98f9b!important;}
+
+ #nav-background{background-color: #fff}
+
+@media (max-width: 991.98px){
+  .top-nav{top:50}
+  #nav-background{top: 0px!important;}.brand img{top: 15px;}}
+
+/**********************************************************************************/
+/* intro area */
+.intro-area{background-image: url('../../site/images/undraw/cover_svg.svg');background-position: center center;background-repeat: no-repeat;background-size: cover;width: 100%;height:500px; margin: 0px 0px 75px 0!important;}
+.section-top{padding-top: 80px;}
+.intro-content {background: rgba(0, 0, 0, 0.30); height: 500px; }
+@media screen and (max-width: 438px){
+  .intro-area, .intro-content{height: 600px}
+}
+#home_signup{width: 60%;margin: 0 20%}
+@media screen and (max-width: 990px){
+  #home_signup{width: 90%;margin: 0 5%}
+}
+@media screen and (max-width: 400px){
+  #home_signup{width: 98%;margin: 0 1%}
+}
+@media screen and (max-width: 520px){
+  #intro_read_more_btn{display: block;width: 56%;margin: 0 23%}
+}
+
+/**********************************************************************************/
+/* style for jumo and carousel area */
+.carousel-slider {margin-top: 150px;padding-bottom: 20px;position: relative;  background: url('../../site/images/team_background.jpg');padding: 20px;}
+.single-slide{height: 150px;}
+@media screen and (max-width: 328px){
+  .single-slide{height: 200px;}
+}
+@media screen and (max-width: 766px){
+  .carousel-slider{margin-top: 340px!important}
+}
+
+
+/**********************************************************/
+/* how work section */
+
+.about-us{margin-top: 50px;}
+@media screen and (max-width: 990px){
+  .about-us{margin-top: 20px;}
+}
+.about-us h2{padding-top: 50px;}
+.about-us img{margin-top: 0px;}
+.how-work-text{position: relative;top: 60px;}
+
+/******************************************************************/
+/* home page portfolio section*/
+.projects_portfolio{
+  background: url('../../site/images/team_background.jpg');margin-top: 10px;padding: 20px;}
+/* home page call action*/
+.call-action{margin-top: 80px;}
+/* home page our serc=articals section*/
+.our-articals{margin-top: 80px;}
+/* home our numbers section */
+.site_numbers{margin-top: 100px;background: url('../../site/images/team_background.jpg')}
+.site_numbers h3{padding-top: 25px;padding-right: 25px}
+.site_numbers p{font-size: 16px;}
+.site_numbers_middle_box{margin-top: 0px;}
+.site_numbers_box{padding: 5px;}
+.site_numbers_call_to_action{margin-top: 20px;padding-bottom: 25px;}
+/******************************************************************/
+/* for profile page */
+.bar-section {width: 40%;float: right;position: absolute; }
+.profile-link {width: 80%;overflow: hidden;margin: 0px 10% 0px 10%; }
+.profile-link a {padding: 8px 20px;float: right;width: auto;border: none;outline: none;display: block;text-decoration: none;border-top: 3px solid #3f3d56;margin: 0px 2px;background-color: #fff;text-decoration: none;color: #000; }.profile-link a:hover {color: #000; text-decoration: none;}
+#bars {font-size: 60px;margin: 10px; position: relative;top: -15px;}
+#main_nav_links a:hover{text-decoration: none;}
+@media screen and (max-width: 704px){
+  #main_nav_links i{display: none!important;}
+}
+.mobile-menue {width: 100%;background-color: #fff;border-top: 3px solid #000; }
+.mobile-menue li {list-style-type: none;border-bottom: 1px solid #f1f1f1;padding: 10px; }
+.mobile-menue a {text-decoration: none;width: 240px}
+#profile_menu i {position: relative;top: 20px;float: right;right: -25px;color: #000; }
+.profile-user-info {max-width: 1500px;height: 300px; }
+.info-icon {width: 100%; }
+.info-icon div {text-align: center;display: inline-block;margin: 3px; }
+
+/*************************************************************/
+
+/* style for footer */
+.footer{margin-top: 100px;background-color: #000;color: #fff;}
+
+/*************************************************************/
+
+/* for signin and signup page*/
+.sign-form{background-image: url('../img/23.jpg');background-position: center center;background-repeat: no-repeat;background-size: cover;width: 100%;height:700px;}
+#login , #register{margin-top: 10%;}
+@media screen and (max-width: 780px) {#login , #register {width: 90%;margin: 20% 5%; } }
+/******************************************************************/
+/* class for all text entred by users */
+.user_text{white-space: pre-wrap;}
+/*========================================================*/
+/* for delete message button in messenger page*/
+#btn_delete_message input{
+  background-color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
+
+/*======================================*/
+/* for add new project page*/
+#add_project{position: absolute;display: none;z-index: 1500;right: 8%;}
+@media screen and (max-width: 640px){#add_project{right: 0px;}}
+/* ============================================*/
+/* for social page*/
+#social_card{height: 550px!important;}
+#social_send_message{cursor: pointer;color: #2196F3;}
+@media screen and (max-width: 766px) {#social_card{height: 400px!important;margin-bottom: 20px;}}
+@media screen and (max-width: 250px) {#social_card{height: 450px!important;margin-bottom: 20px;}}
+/* ============================================*/
+/* for search users page*/
+.searchResults_name p{position: relative; top: 40px;right: 10px;}
+.searchResults_location p{position: relative; top: 25px;right: 10px;}
+@media screen and (max-width: 460px){
+  .searchResults{height: 100%;}
+  .searchResults_name p{position: relative; top: 75px;right: -80px;}
+  .searchResults_location p{position: relative; top: 55px;right: -80px;}
+  .searchResults_rating{position: relative;top: 33px;right: -17px;}
+}
+@media screen and (max-width: 334px){
+  .searchResults{height: 180px;}
+  .searchResults_name p{position: absolute;top: 87px;right: 20px}
+  .searchResults_location p{position: absolute;top: 105px;right: 20px}
+  .searchResults_rating{position: absolute;top: 110px;right: 0px}
+}
+.searchResults_image img{width: 80px; height: 80px;}
+
+/*
+* media  query sectio
+*/
+/* for about us section in home page*/
+@media screen and (max-width: 920px) {
+  .bar-section {
+    width: 80% !important;
+    left: 50%; } }
+
+/* for the cover image in the index page*/
+@media screen and (max-width: 680px) {
+  #cover-img {
+    height: 400px; } }
+
+@media screen and (max-width: 602px) {
+  .sm-2 {
+    width: 49.99999%; } }
+
+@media screen and (max-width: 524px) {
+  .bar-section {
+    width: 90% !important;
+    left: 50%; } }
+
+@media screen and (max-width: 380px) {
+  .sm-2 {
+    width: 100%; }
+  .profile-user-info {
+    height: 350px; } }
+
+@media screen and (max-width: 250px) {
+  #edit-tab {
+    width: 100%; } }
+
+
+/*========================================*/
+/* errors page */
+@media screen and (max-width: 504px) {
+    .errors_image img{width: 100%}
+}
+
+/* genral class */
+.custom-bg{background-color: #f98f9b!important;color: #fff}
+
+.custom-color{color: #f98f9b;}
+
+.custom-blue-color{color: #3f3d56!important;}
+.custom-blue-bg{background-color: #3f3d56!important;color: #fff!important}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+  background-color: #000;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 536px) {
+    .disable_float_and_width_on_small_screen{
+      float: none!important;
+      width: 100%!important;
+      margin-left: 0px!important;
+    }
+}
+
+
+@media screen and (max-width: 574px){
+  .profile_avatar{
+    margin-top: 25px;
+  }
+}

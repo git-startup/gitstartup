@@ -1,0 +1,140 @@
+.content-intro img{
+    height: 350px;
+}
+.search-box{
+    position: relative;
+
+}
+.search-box input[type="search"]{
+    position: relative;
+}
+.search-box button{
+    position: absolute;
+    top: 57px;
+    left: 8%;
+}
+@media screen and (max-width: 766px){
+  .search-box button{
+      left: 6%;
+  }
+}
+@media screen and (max-width: 280px){
+  .search-box button{
+      left: 8%;
+  }
+}
+
+.single-article{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 250px){
+  .single-article-container{
+      padding-left: 0px!important;
+      padding-right: 0px!important
+  }
+}
+
+.articles{
+    margin-top: 50px;
+}
+
+.articles img{
+  height: 250px;
+}
+
+.container article {
+    padding: 1rem;
+    margin-top: 7%;
+    background-color: #fff;
+}
+
+.container article .article-main-img {
+    margin-top: 2%;
+}
+
+.container article p {
+    margin-top: 4%;
+    text-align: right;
+
+}
+
+.comments-wrap {
+    padding: 1rem;
+    margin-top: 5%;
+    background-color: #fff;
+}
+
+.comments-wrap textarea {
+    width: 100%;
+    height:30%;
+}
+
+.comments-wrap .comment {
+    width: 100%;
+    background-color:#f1f1f1;
+    padding: 0.5rem;
+    margin-bottom: 2%;
+    font-size: 20px;
+    text-align: right;
+
+}
+
+@media screen and (max-width: 320px) {
+  .social_body{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+.comments-wrap .comment h5 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.comments-wrap .comment h5 img {
+    width: 4%;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.comments-wrap .comment p {
+    font-size: 15px;
+}
+
+.article-hold {
+    margin-bottom: 5%;
+    transform: all 1s;
+}
+
+.article-hold img {
+    width: 100%;
+
+}
+
+.article-hold:hover {
+    box-shadow: 0 0 15px 0 black;
+}
+
+
+.another-articles {
+  margin-top: 35px;
+}
+
+.underline {
+    width: 30%;
+    background-color: #4285F4;
+    height: 0.1rem;
+}
+
+.another-articles p {
+    text-align: center;
+}
+
+.article_sub_img{width: 50%}
+@media screen and (max-width: 766px){
+  .article_sub_img{ width: 80%}
+}
+@media screen and (max-width: 490px){
+  .article_sub_img{ width: 100%}
+}

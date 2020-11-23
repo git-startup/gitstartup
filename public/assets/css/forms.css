@@ -1,0 +1,55 @@
+
+
+
+.signimg {
+    width: 100%;
+}
+
+
+form {
+    padding: 1rem;
+}
+
+form h1 {
+    font-size: 150%;
+}
+
+.signup {
+    margin-top: 5%;
+}
+
+
+.btn {
+    border-radius: 3px;
+
+}
+
+.fields {
+  margin-top: 7%;
+};
+
+
+ /* custom green color */
+.bg-color{
+  background-color: #50d8af!important;
+  color: #fff;
+}
+.bg-color:hover{
+  background-color: #50d8af;
+  color: #000;
+}
+
+.alert-margin-top{
+  margin-top: 3px;
+}
+
+.custom-blue-color{color: #3f3d56!important;}
+.custom-blue-bg{background-color: #3f3d56!important;color: #fff!important}
+
+
+@media screen and (max-width: 780px){
+  .login_btn{
+    margin: 0px 25px;
+    margin-top: 0px!important;
+  }
+}
