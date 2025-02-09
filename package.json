@@ -1,0 +1,47 @@
+{
+  "name": "gitstartup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "aos": "^2.3.4",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.2.3",
+    "carousel": "^0.0.3",
+    "html-react-parser": "^5.1.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.0.4",
+    "next": "14.0.4",
+    "next-auth": "^4.24.5",
+    "photoswipe": "^5.3.7",
+    "react": "^18",
+    "react-circular-progressbar": "^2.1.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18",
+    "react-ga4": "^2.1.0",
+    "react-hook-form": "^7.49.3",
+    "react-hotjar": "^6.2.0",
+    "react-intersection-observer": "^9.4.3",
+    "react-loader-spinner": "^6.1.6",
+    "react-masonry-css": "^1.0.16",
+    "react-modal-video": "^2.0.0",
+    "react-photoswipe-gallery": "^2.2.6",
+    "react-share": "^5.0.3",
+    "react-slick": "^0.29.0",
+    "react-tabs": "^6.0.0",
+    "sass": "^1.57.1",
+    "sharp": "^0.33.2",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}
